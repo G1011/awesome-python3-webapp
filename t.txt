@@ -1,0 +1,26 @@
+a='s d a s dasd asd'
+a='sdasdasdas'
+#a.split()
+z=list(a)
+#for x in a:
+#	z.append(a)
+print(z)
+q='PLATIM'
+print(len(q))
+print(z[2:8])
+
+
+k=a.strip()
+print(k)
+
+m=a.split()
+print(m)
+line1=[]
+for i in range(len(m)):
+	if len(m[i])==1:
+		line1.append(m[i])
+	if len(m[i])>1:
+		k=list(m[i])
+		for e in k:
+			line1.append(e)
+print(line1)
